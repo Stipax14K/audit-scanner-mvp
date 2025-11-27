@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "baseUrl": "./src",
+      "paths": {
+        "@domain/*": ["domain/*"],
+        "@application/*": ["application/*"],
+        "@infrastructure/*": ["infrastructure/*"],
+        "@interfaces/*": ["interfaces/*"],
+        "@shared/*": ["shared/*"]
+      }
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }

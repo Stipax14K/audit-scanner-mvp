@@ -1,0 +1,24 @@
+// backend/package.json (Version simplifiée pour API Routes seulement)
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Cosmos AI Platform Backend API Routes",
+  "main": "dist/interfaces/api/pitch-generator.js",
+  "scripts": {
+    "start": "node dist/interfaces/api/pitch-generator.js",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.1.0",
+    "next": "^14.0.0", // Garder next pour les types NextApiRequest/Response
+    "react": "^18.2.0", // Nécessaire pour Next.js même si pas de frontend direct
+    "react-dom": "^18.2.0" // Nécessaire pour Next.js
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
