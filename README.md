@@ -9,9 +9,6 @@ Objectif : analyser une codebase legacy et produire un **rapport d’audit JSON*
 - Analyse par IA → sortie JSON structurée.
 - Dashboard simple pour visualiser le rapport.
 
-⚠️ Le moteur de refactoring complet reste privé.  
-Ce repo est dédié aux **modules périphériques** (UI, intégrations, tests).
-
 ## 🔍 Ce que nous cherchons
 Contributeurs motivés pour travailler sur :
 - **Frontend (Next.js + monaco-editor)** → affichage du JSON et diff.
@@ -31,5 +28,5 @@ Toutes les contributions sont validées manuellement pour garantir la cohérence
 - **Phase 3 (Enterprise)** : GitHub App + PR automatiques + plugins IDE.
 
 ## 📜 Licence
-Projet sous licence MIT (à adapter selon ton choix).
-Le moteur central reste propriétaire.
+Projet sous licence MIT.
+
